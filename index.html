@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">DevOps Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="assets/resume.pdf" class="download-btn" download>Download Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2 class="animate-fade-in">Hi, I'm a DevOps Engineer</h2>
+        <p class="animate-slide-in">I specialize in Linux, Cloud, Automation, and CI/CD Pipelines.</p>
+        <button class="primary-btn" onclick="scrollToSection('contact')">Get in Touch</button>
+    </section>
+
+    <section id="about" class="animate-section">
+        <h2>About Me</h2>
+        <p>Hi, I’m a skilled DevOps Engineer with experience in Linux, Docker, Jenkins, and AWS. I love automating processes and ensuring smooth CI/CD pipelines.</p>
+    </section>
+
+    <section id="skills" class="animate-section">
+        <h2>Skills</h2>
+        <div class="skill-container">
+            <div class="skill-card">
+                <i class="fab fa-docker"></i>
+                <h3>Docker</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-aws"></i>
+                <h3>AWS</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-linux"></i>
+                <h3>Linux</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Bash & Python Scripting</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-tools"></i>
+                <h3>CI/CD Pipelines</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="animate-section">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Project 1: Dockerized Node.js App</h3>
+            <p>A simple Node.js application containerized and deployed using Docker Compose.</p>
+            <a href="https://github.com/yourusername/docker-node-app" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+        <div class="project-card">
+            <h3>Project 2: Jenkins CI/CD Pipeline</h3>
+            <p>Automated build and deployment process of a containerized app using Jenkins.</p>
+            <a href="https://github.com/yourusername/jenkins-pipeline" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+    </section>
+
+    <section id="contact" class="animate-section">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for collaboration or job opportunities.</p>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/sumnsmnt" target="_blank">Connect on LinkedIn</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DevOps Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
